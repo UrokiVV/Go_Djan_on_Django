@@ -1,0 +1,26 @@
+{% extends 'main/layoute.html' %}
+
+{% block title %}Главная{% endblock %}
+
+{% block content %}
+<div class="text-center">
+    <h1 class="mb-4">Проект <span class="text-primary">Go_Djan</span></h1>
+    <p class="lead">Главная страница сайта</p>
+</div>
+
+<div class="card shadow-sm p-4 mb-4">
+    <h2 class="h4">DJ02_app_Models</h2>
+    <p>Подготовлены 4 html-страницы и меню. Они используют общий шаблон <code>layoute.html</code>.</p>
+    <p>Основное — создать структуру сайта. Она описывается на Django с математической точностью. Далее достаточно наполнить страницы нужным содержанием.</p>
+</div>
+
+<div class="card shadow-sm p-4">
+    <h2 class="h4">DJ01_Introduction</h2>
+    <p>Подготовлены 4 html-страницы без шаблона и навигации.</p>
+    <p>
+        Страницы первого задания <b>DJ01</b>:  
+        <code>/index01</code>, <code>/new</code>, <code>/newtest01</code>, <code>/data01</code>
+    </p>
+    <p><a href="http://127.0.0.1:8000/index01" target="_blank" class="btn btn-primary">Пример</a></p>
+</div>
+{% endblock %}

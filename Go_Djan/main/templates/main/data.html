@@ -1,0 +1,30 @@
+{% extends 'main/layoute.html' %}
+
+{% block title %}Третья — Данные{% endblock %}
+
+{% block content %}
+<div class="mb-5">
+    <h1 class="fw-bold text-success">Третья страница проекта Go_Djan</h1>
+    <p class="lead">Использует общий шаблон <code>layoute.html</code></p>
+</div>
+
+<div class="card shadow p-4 mb-4">
+    <h2 class="h5 text-secondary">DJ02: Данные и отчёты</h2>
+    <p>На этой странице можно разместить таблицы, графики, отчёты или любые данные.</p>
+
+    <table class="table table-striped mt-3">
+        <thead class="table-dark">
+            <tr>
+                <th>#</th>
+                <th>Название</th>
+                <th>Значение</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>1</td><td>Показатель A</td><td>120</td></tr>
+            <tr><td>2</td><td>Показатель B</td><td>95</td></tr>
+            <tr><td>3</td><td>Показатель C</td><td>210</td></tr>
+        </tbody>
+    </table>
+</div>
+{% endblock %}

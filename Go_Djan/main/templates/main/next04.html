@@ -1,0 +1,16 @@
+{% extends 'main/layoute.html' %}
+
+{% block title %}Очередная-04{% endblock %}
+
+{% block content %}
+<div class="text-center mb-5">
+    <h1 class="fw-bold text-danger">Четвёртая страница проекта Go_Djan</h1>
+    <p class="lead">Использует шаблон <code>layoute.html</code></p>
+</div>
+
+<div class="card shadow-lg border-0 p-4">
+    <h2 class="h4">DJ02_app_Models</h2>
+    <p>Просто очередная заготовка 4-й страницы. Здесь можно добавить текст, изображения или ссылки на будущие разделы.</p>
+    <a href="{% url 'index' %}" class="btn btn-danger mt-3">Вернуться на главную</a>
+</div>
+{% endblock %}
